@@ -192,7 +192,7 @@
               class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
             >
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="index.html">
                   <i class="bi bi-box-arrow-right"></i>
                   <span>Déconnexion</span>
                 </a>
@@ -230,7 +230,7 @@
           </a>
           <ul
             id="components-nav"
-            class="nav-content collapse show"
+            class="nav-content collapse"
             data-bs-parent="#sidebar-nav"
           >
             <li>
@@ -249,7 +249,7 @@
               </a>
             </li>
             <li>
-              <a href="recensements.html" class="active">
+              <a href="recensements.html" >
                 <i class="bi bi-circle"></i><span>Gestions des recensements</span>
               </a>
             </li>
@@ -304,11 +304,11 @@
           </a>
           <ul
             id="tables-nav"
-            class="nav-content collapse"
+            class="nav-content collapse show"
             data-bs-parent="#sidebar-nav"
           >
             <li>
-              <a href="ventes.html">
+              <a href="ventes.html" class="active">
                 <i class="bi bi-circle"></i><span>Cartes contribuable</span>
               </a>
             </li>
@@ -329,7 +329,7 @@
         <nav>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-            <li class="breadcrumb-item active">Recensements</li>
+            <li class="breadcrumb-item active">Cartes contribuable</li>
           </ol>
         </nav>
       </div>
@@ -341,91 +341,52 @@
 
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Gestion des recensements</h5>
+                <h5 class="card-title">Liste des ventes effectuées</h5>
   
                 <!-- Default Table -->
                 <table class="table table-borderless datatable">
                   <thead>
                     <tr>
                       <th scope="col">N°carte</th>
-                      <th scope="col">Nom et prénoms</th>
-                      <th scope="col">structures</th>
-                      <th scope="col">N°TéL</th>
-                      <th scope="col">Date</th>
-                      <th scope="col">Type Activité</th>
+                      <th scope="col">Contribuable</th>
+                      <th scope="col">N°TéL TreMo</th>
                       <th scope="col">Statut</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row"><a href="#">GAR45457584053</a></th>
-                      <td>BASSOUM MODY SADA</td>
-                      <td>COIFFURE</td>
-                      <td>0464503715</td>
-                      <td>25/02/2022 13:12:15</td>
-                      <td>COIFFURE</td>
-                      <td><span class="badge but1">En attente</span>
+                      <th scope="row"><a href="#">OCC22000000010</a></th>
+                      <td>AYE AYE JEAN</td>
+                      <td>0709813582</td>
+                      <td>ACTIF</td>
                       </td>
                     </tr>
-  
                     <tr>
-                      <th scope="row"><a href="#">GAR45457584053</a></th>
-                      <td>BASSOUM MODY SADA</td>
-                      <td>COIFFURE</td>
-                      <td>0464503715</td>
-                      <td>25/02/2022 13:12:15</td>
-                      <td>COIFFURE</td>
-                      <td><span class="badge but1">En attente</span>
+                      <th scope="row"><a href="#">OCC22000000010</a></th>
+                      <td>AYE AYE JEAN</td>
+                      <td>0709813582</td>
+                      <td>ACTIF</td>
                       </td>
                     </tr>
-  
                     <tr>
-                      <th scope="row"><a href="#">GAR45457584053</a></th>
-                      <td>BASSOUM MODY SADA</td>
-                      <td>COIFFURE</td>
-                      <td>0464503715</td>
-                      <td>25/02/2022 13:12:15</td>
-                      <td>COIFFURE</td>
-                      <td><span class="badge but1">En attente</span>
+                      <th scope="row"><a href="#">OCC22000000010</a></th>
+                      <td>AYE AYE JEAN</td>
+                      <td>0709813582</td>
+                      <td>ACTIF</td>
                       </td>
                     </tr>
-  
                     <tr>
-                      <th scope="row"><a href="#">OCC22000000012</a></th>
-                      <td>SANOGO AZARA</td>
-                      <td>BOUTIQUE</td>
-                      <td>0554402818 </td>
-                      <td>01/03/2022 09:44:48 </td>
-                      <td>Boutiquier</td>
-                      <td><span class="badge bg-success">Valider</span>
+                      <th scope="row"><a href="#">OCC22000000010</a></th>
+                      <td>AYE AYE JEAN</td>
+                      <td>0709813582</td>
+                      <td>ACTIF</td>
                       </td>
                     </tr>
-  
-                    <tr>
-                      <th scope="row"><a href="#">OCC22000000012</a></th>
-                      <td>SANOGO AZARA</td>
-                      <td>BOUTIQUE</td>
-                      <td>0554402818 </td>
-                      <td>01/03/2022 09:44:48 </td>
-                      <td>Boutiquier</td>
-                      <td><span class="badge bg-success">Valider</span>
-                      </td>
-                    </tr>
-  
-                    <tr>
-                      <th scope="row"><a href="#">OCC22000000012</a></th>
-                      <td>SANOGO AZARA</td>
-                      <td>BOUTIQUE</td>
-                      <td>0554402818 </td>
-                      <td>01/03/2022 09:44:48 </td>
-                      <td>Boutiquier</td>
-                      <td><span class="badge bg-success">Valider</span>
-                      </td>
-                    </tr>
-  
                   </tbody>
                 </table>
                 <!-- End Default Table Example -->
+                <button type="button" class="btn btn-success but1">Nouvelle Vente</button>
+
 
 
               </div>

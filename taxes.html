@@ -18,7 +18,6 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
-
     <!-- Vendor CSS Files -->
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -45,7 +44,7 @@
   ======================================================== -->
   </head>
 
-  <body>
+  <body >
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center justify-content-between">
@@ -351,6 +350,7 @@
                       <th scope="col">Montant</th>
                       <th scope="col">Type de taxe</th>
                       <th scope="col">Description</th>
+                      <th scope="col">Resumé</th>
                       <th scope="col"></th>
                     </tr>
                   </thead>
@@ -360,6 +360,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                     <tr>
@@ -367,6 +368,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                     <tr>
@@ -374,6 +376,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                     <tr>
@@ -381,6 +384,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                     <tr>
@@ -388,6 +392,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                     <tr>
@@ -395,6 +400,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                     <tr>
@@ -402,6 +408,7 @@
                       <td>3 600,00</td>
                       <td>OCCASIONNELLE</td>
                       <td>RAS</td>
+                      <td><button class="btn btn-open"><img src="https://img.icons8.com/ios/50/null/visible--v1.png" width="30" height="30"/></button></td>
                       <td><button class="btn b"><i class="bi bi-pencil"></i></button></td>
                     </tr>
                   
@@ -409,15 +416,42 @@
                   </tbody>
                 </table>
                 <!-- End Default Table Example -->
+                <div class="foot">
+                <div class="bouton-action">
                 <button type="button" class="btn btn-success but1">Ajouter un site</button>
                 <button type="button" class="btn btn-danger but2">Supprimer</button>
-
+              </div>
+                <button type="button" class="bi-file-excel">Import</button>
+              </div>
 
               </div>
             </div>
         </section>
     </main>
     <!-- End #main -->
+
+
+    
+    <!--Modal pop up-->
+
+                <div class="modal hidden" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Plus d'informations</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            <div class="overlay hidden"></div>
+      
+     <!--Modal pop up-->
+      
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
@@ -453,5 +487,10 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+        
+    
+
+
+
   </body>
 </html>

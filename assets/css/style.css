@@ -1283,6 +1283,7 @@ border: 2px solid green;
   font-size: 14px;
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
+  background-color: white;
 }
 
 .footer .copyright {
